@@ -37,6 +37,7 @@ loom {
             runDir("run")
         }
     }
+    log4jConfigs.from(file("log4j-dev.xml"))
 }
 
 tasks.withType(JavaCompile).configureEach {

@@ -1,0 +1,1 @@
+Les entry name peuvent pas terminer par \

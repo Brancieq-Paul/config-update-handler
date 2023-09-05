@@ -1,6 +1,6 @@
 {
     "schemaVersion": 1,
-    "id": "mod_id",
+    "id": "configupdatehandler",
     "version": "${version}",
     "name": "${mod_name}",
     "description": "This is an example description! Tell everyone what your mod is about!",
@@ -15,18 +15,18 @@
     "icon": "assets/modid/icon.png",
     "environment": "*",
     "entrypoints": {
-        "main": [
-            "com.example.examplemod.ExampleMod"
+        "preLaunch": [
+            "com.paulbrancieq.configupdatehandler.ConfigUpdateHandler"
         ]
     },
     "mixins": [
-        "examplemod.mixins.json",
-        "examplemod.fabric.mixins.json"
+        "configupdatehandler.mixins.json",
+        "configupdatehandler.fabric.mixins.json"
     ],
     "depends": {
         "fabricloader": ">=0.14",
         "fabric": "*",
-        "minecraft": "1.20",
+        "minecraft": ">=1.20",
         "java": ">=17"
     },
     "suggests": {

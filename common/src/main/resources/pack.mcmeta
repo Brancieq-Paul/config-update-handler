@@ -1,6 +1,6 @@
 {
     "pack": {
-        "description": "${mod_name}",
+        "description": "Handling of configuration after a modpack update",
         "pack_format": 8
     }
 }

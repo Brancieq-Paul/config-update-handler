@@ -1,0 +1,4 @@
+- Séparer update et cinfig système dans le but de faire du config système une lib séparée
+utilisable dans plusieurs mods sans avoir à se trimballer les features d'update
+- Ajouter une partie GUI au mod permettant de modifier la base des updates depuis le jeu (=liste des options qui sont pas pareilles entre l'instance et la base
+et choix de reporter les modifications dans la base en usant du config système)
